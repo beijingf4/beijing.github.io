@@ -1,0 +1,88 @@
+.home {
+  width: 100%;
+  .home-header {
+    width: 100%;
+    border-bottom: 5px solid #f6f6f6;
+
+    ul {
+      width: 90%;
+      margin: 0 auto;
+
+      .logo {
+        font-size: 70px;
+        margin: 7px;
+
+        a {
+          color: #0f88eb;
+          text-decoration: none;
+        }
+      }
+
+      .search {
+        font-size: 38px;
+        background: #f1f1f1;
+        width: 120px;
+        height: 30px;
+        border-radius: 40px;
+        text-align: center;
+        line-height: 70px;
+        margin-top: 15px;
+
+        a {
+          color: #999999;
+          text-decoration: none;
+        }
+      }
+
+      .signin {
+        font-size: 38px;
+        margin-top: 18px;
+        margin-left: 10px;
+
+        a {
+          color: #0f88eb;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .home-nav {
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+
+    .home-navbox {
+      width: 90%;
+      height: 140px;
+      margin: 0 auto;
+      overflow-x: scroll;
+      white-space: nowrap;
+
+      .h-n-item {
+        line-height: 55px;
+        margin-right: 20px;
+
+        a {
+          text-decoration: none;
+          color: #999999;
+          font-size: 35px;
+          border: 1px solid #ebebeb;
+          padding: 0px 20px;
+          border-radius: 40px;
+        }
+
+        .h-n-item-active {
+          color: black;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  .home-content {
+    border-top: 5px solid #f6f6f6;
+    margin-top: -12px;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,16 @@
+.common-box {
+  .title {
+    font-size: 50px;
+  }
+
+  .c-navbox {
+    font-size: 40px;
+
+    .c-item {
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}

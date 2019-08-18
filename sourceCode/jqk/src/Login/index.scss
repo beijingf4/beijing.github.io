@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.login-header {
+  height: 230px;
+  background: #0084ff;
+  text-align: center;
+  color: white;
+  i {
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+  }
+  .login-header-p1 {
+    font-size: 60px;
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+  }
+  .login-header-p2 {
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 40px;
+  }
+}
+
+.inputbox {
+  width: 90%;
+  height: 300px;
+  margin: 5%;
+  font-size: 20px;
+  overflow: hidden;
+  label {
+    width: 100%;
+    height: 120px;
+    display: block;
+  }
+  .phone-label-box {
+    width: 100%;
+    border-bottom: 1px solid #ebebeb;
+    display: block;
+    height: 50px;
+    margin-top: 20px;
+    .phoneleft {
+      width: 40%;
+      height: 100%;
+      float: left;
+      line-height: 70px;
+      text-align: center;
+      .phoneleft-child {
+        border-right: 1px solid #ebebeb;
+        height: 50%;
+        margin-top: 11%;
+        font-size: 30px;
+        width: 100%;
+      }
+    }
+    input {
+      width: 58%;
+      outline: none;
+      height: 50px;
+      font-size: 30px;
+      text-indent: 15px;
+      background: white;
+      border: none;
+      float: right;
+    }
+  }
+  .yzm-label-box {
+    width: 100%;
+    display: block;
+    height: 50px;
+    input {
+      width: 59%;
+      height: 50px;
+      outline: none;
+      background: white;
+      border: none;
+      border-bottom: 1px solid #ebebeb;
+      float: left;
+      text-indent: 20px;
+    }
+    div {
+      width: 40%;
+      height: 50px;
+      float: right;
+      button {
+        width: 80%;
+        height: 35px;
+        line-height: 35px;
+        margin-top: 10px;
+        border: 1px gray solid;
+        border-radius: 10px;
+        background: white;
+      }
+    }
+  }
+  .text-p-login {
+    margin-top: 30px;
+    color: gray;
+    text-align: center;
+    a {
+      color: gray;
+      border: none;
+    }
+  }
+  .text-p-login1 {
+    margin-top: 20px;
+    text-align: center;
+    color: gray;
+    a {
+      color: gray;
+      border: none;
+    }
+  }
+  .login-box {
+    .login-box-btn {
+      width: 100%;
+      margin-top: 15%;
+      height: 40%;
+      outline: none;
+      background: #0084ff;
+      font-size: 40px;
+      color: white;
+      border-radius: 15px;
+      border: none;
+    }
+  }
+}
+.a-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  .a {
+    font-size: 10px;
+    padding-left: 20px;
+    color: gray;
+    text-decoration: none;
+    border: none;
+  }
+  .b {
+    padding-right: 20px;
+    text-align: right;
+    border: none;
+    color: gray;
+    font-size: 10px;
+    text-decoration: none;
+  }
+}
+.login-bottom-two {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  a {
+    display: block;
+    font-size: 35px;
+    margin-top: 10px;
+    border: none;
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+  }
+}

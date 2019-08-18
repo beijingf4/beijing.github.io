@@ -1,0 +1,94 @@
+.zcbox{
+    width: 90%;
+    padding: 5%;
+    background: #F8F9FD;
+    .header-zc{
+        width: 100%;
+        height: 250px;
+        img{
+            width: 100%;
+            height: 250px;
+        }
+    }
+    .zc-body{
+        width: 100%;
+        background: white;
+        height:450px;
+    }
+    .zc-logo{
+        width: 100%;
+        height: 40px;
+        margin-top: 10px;
+        img{
+        margin-top: 15px;
+        width: 50%;
+        height: 30px;
+        margin-bottom: 10px;
+        margin-left: 25%;
+        }
+    }
+    .zc-form-box{
+        width: 100%;
+        height: 300px;
+    }
+}
+.zc-label{
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    display: block;
+    .yzm{
+        width: 60%;
+        height: 100%;
+        margin-left: 5%;
+        font-size: 30px;
+        text-indent: 40px;
+        outline: none;
+        border: none;
+        border-bottom: #f6f6f6 1px solid;
+    }
+    .yzming{
+        float: right;
+        width: 26%;
+        // margin-top: 30px;
+        height: 60%;
+        margin-top: 20px;
+        margin-right:20px; 
+    }
+    input{
+        width: 90%;
+        height: 100%;
+        margin-left: 5%;
+        font-size: 30px;
+        text-indent: 40px;
+        outline: none;
+        border: none;
+        border-bottom: #f6f6f6 1px solid;
+    }
+    button{
+        width: 90%;
+        height: 80%;
+        margin-top: 10%;
+        margin-left: 5%;
+        font-size: 30px;
+        // text-indent: 40px;
+        outline: none;
+        color: white;
+        text-align: center;
+        border: none;
+        background: #0084ff;
+        border-radius: 10px;
+    }
+}
+.zc-box-a{
+    width: 100%;
+    height: 70px;
+    a{
+        width: 100%;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: gray;
+        font-size: 20px;
+    }
+}
