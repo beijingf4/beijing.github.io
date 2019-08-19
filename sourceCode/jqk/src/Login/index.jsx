@@ -3,8 +3,7 @@ import './index.scss';
 // import api from'../api/index.js';
 import {NavLink} from 'react-router-dom';
 import tool from '../tool/tool.js'
-
-export default class Html extends Component {
+export default class Login extends Component {
     constructor(){
         super()
         this.state = {
@@ -19,16 +18,14 @@ export default class Html extends Component {
         // console.log(target.value)
     }
     onSubmit=(pandName='dl')=>{
-         // console.log(pandName)
          let data = tool(this.state,pandName)
          if (data.status) {
              console.log('这个时候 我们可以去请求登录接口')
              alert(data.msg)
-             window.location.replace('/signin')
+            //  window.location.replace('/signin')
              // alert('登陆成功')
-             window.location.replace('/home10')
-         } else {
-             // console.log(this.state.errcount)
+             window.location.replace('/homesy')
+         }  else {
              alert(data.msg)
          }
     }
