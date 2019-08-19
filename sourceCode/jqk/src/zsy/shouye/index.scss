@@ -1,110 +1,120 @@
-.zh-header {
-  a {
-    text-decoration: none;
-    color: #858585;
-    background: #ffffff;
-    width: 100%;
-    display: block;
-    // padding: 20px 0px;
-    border-bottom: 1px solid #cccccc;
-  }
+.flex {
   display: flex;
+  &.flex-bw {
+    justify-content: space-between;
+  }
+}
+.link-box {
+  width: 97%;
+  height: 100%;
+  // background-color: rgba(26, 26, 26, 0.65);
+  z-index: 99999;
+  position: absolute;
+  top: 51px;
+  left: 10px;
+}
+.link-box1 {
+  width: 100%;
+  height: 288px;
+  background: #ffffff;
+  overflow: hidden;
+}
+.link-box2 {
+  width: 700px;
+  margin: 0px auto;
+  // a {
+  //   text-decoration: none;
+  //   color: #858585;
+  //   background: #ffffff;
+  //   width: 100%;
+  //   display: block;
+  //   // padding: 20px 0px;
+  //   border-bottom: 1px solid #cccccc;
+  // }
+}
+.link-nav {
+  width: 100%;
+  display: block;
+  padding: 20px 0px;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #858585;
+  // background: #ffffff;
+  width: 100%;
+  // display: block;
+  // padding: 20px 0px;
+  // border-bottom: 1px solid #cccccc;
+}
+.zh-header{
+  display:flex;
   // justify-content: space-between;
   border-bottom: 1px solid #eee;
   width: 100vw;
   height: 50px;
-  .zh-logo {
-    position: relative;
+  .zh-logo{
+      position: relative;
+      width: 80px;
+      height: 50px;
+      img{
+          position: absolute;
+          top: 20%;
+          left: 0px;
+      }
+  }
+  .zh-sea{
+      background-color: hsla(0,0%,92.2%,.72);
+      width: 140px;
+      height: 35px;
+      color: #999;
+      // margin: 10px 12px;
+      margin-top: 8px;
+      margin-left: -40px;
+      font-size: 15px;
+      border-radius: 40px;
+      position: relative;
+      overflow: hidden;
+      img{
+          position: absolute;
+          top:16%;
+          left: 5px;
+      }
+      p{
+          position: absolute;
+          width: 70%;
+          // top: -5%;
+          left: 40px;
+          font-size: 30px;
+          line-height: 80px;
+      }
+  }
+  .zh-xia{
     width: 80px;
     height: 50px;
-    img {
-      position: absolute;
-      top: 20%;
-      left: 14px;
-    }
-  }
-  .zh-sea {
-    background-color: hsla(0, 0%, 92.2%, 0.72);
-    width: 90px;
-    height: 35px;
-    color: #999;
-    margin: 10px 12px;
-    font-size: 15px;
-    border-radius: 40px;
     position: relative;
-    overflow: hidden;
-    img {
-      position: absolute;
-      top: 16%;
-      left: 5px;
-    }
-    p {
-      position: absolute;
-      width: 70%;
-      // top: -5%;
-      left: 40px;
-      font-size: 30px;
-      line-height: 80px;
-    }
+     .zh-xia-img{
+          width: 100%;
+          height: 40px;
+          padding-right: 10px;
+          border-right: 1px solid #eee;
+          position: absolute;
+          top: 14%;
+          left: -14px;
+      }
   }
-  .zh-xia {
-    width: 80px;
-    height: 50px;
-    position: relative;
-    .zh-xia-img {
-      width: 100%;
-      height: 40px;
-      padding-right: 10px;
-      border-right: 1px solid #eee;
-      position: absolute;
-      top: 16%;
-    }
-  }
-  .zh-meau {
-    position: relative;
-    width: 53px;
-    height: 50px;
-    .zh-meau-img {
-      position: absolute;
-      top: 40%;
-      left: 20px;
-    }
-  }
-  li {
-    list-style: none;
-  }
-  a {
-    text-decoration: none;
-    color: #858585;
-    background: #ffffff;
-    width: 7rem;
-    display: block;
-    padding: 20px 0px;
-    border-bottom: 1px solid #cccccc;
-  }
-
-  .link-box {
-    width: 97%;
-    height: 100%;
-    // background-color: rgba(26, 26, 26, 0.65);
-    z-index: 99999;
-    position: absolute;
-    top: 100px;
-    left: 10px;
-  }
-  .link-box1 {
-    width: 100%;
-    height: 288px;
-    background: #ffffff;
-    overflow: hidden;
-  }
-  .link-box2 {
-    width: 700px;
-    margin: 0px auto;
-  }
-  .link-nav {
-    width: 100%;
-    display: block;
-    padding: 20px 0px;
+  .zh-meau{
+      position: relative;
+      width: 53px;
+      height: 50px;
+      .zh-meau-img{
+          position: absolute;
+          top: 40%;
+          left: -25px;
+      }
   }
 }
+
